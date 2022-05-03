@@ -159,8 +159,8 @@ class Menu:
                         self.fadeSpeed = round((current / 160) * 50)
             
 def menu_labels():
-    font_style_text = "partitek/partitek/Montserrat-VariableFont_wght.ttf"
-    font_style_title = "partitek/partitek/AlegreyaSansSC-Light.ttf"
+    font_style_text = "./Montserrat-VariableFont_wght.ttf"
+    font_style_title = "./AlegreyaSansSC-Light.ttf"
 
     label = pygame.font.Font(font_style_text, 15)
     title = pygame.font.Font(font_style_title, 35)
